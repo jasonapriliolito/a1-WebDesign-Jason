@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	font-size:70px;
+	font-weight:1000px;
+	color:#8CFACA;
+	background:#008000;
+	margin-bottom:3px;
+	}
+
+
+nav {
+	height:30px;
+	position:relative;
+	margin:0px;
+	background-color:#008000;
+	}
+nav ul {
+	list-style-type:none;
+	left:0px; bottom:0px; margin:0px; padding:0px;
+	overflow:hidden;
+	font-family:"Arial";
+	}
+nav li.left {
+	float:left;
+	display:inline;
+	border-right:1px solid #FFFFFF;
+	}
+nav li.right {
+	float:right;
+	display:inline;
+	border-left:1px solid #FFFFFF;
+	}
+nav li a {
+	height:30px; margin:0px; padding:0px 10px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	font-size:24px;
+	color:#8CFACA;
+	font-weight:bold;
+	}
+nav li a:hover {
+	background-color:#12AD2A;
+	}
+
+
+ul {
+	margin:0px;
+	}
+body {
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	background:	url(../images/book-fair-678264_1280.jpg);
+	background-size:cover;
+	opacity:0.9;
+	font-family: "Arial";
+	}
+div.box1 {
+	background-color:#ffffff;
+	border:0.1px solid black;
+	opacity:0.8;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-left:5%;
+	padding-right:5%;
+	}
+div.box2 {
+	background-color:#ffffff;
+	border:0.1px solid black;
+	opacity:0.8;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-left:5%;
+	padding-right:5%;
+	}
+#image {
+	width:50%;
+	margin:auto;
+	display:block;
+	}
+#image1 {
+	height:100%;
+	width:37.5%;
+    margin:auto;
+	}
+#image2 {
+	height:100%;
+	width:37.5%;
+    margin:auto;
+	}
+#image3 {
+	height:100%;
+	width:25%;
+    margin:auto;
+	}
+#image4 {
+	height:100%;
+	width:50%;
+	margin:auto;
+	}
+#image5 {
+	height:100%;
+	width:25%;
+	margin:auto;
+	float:right;
+	}
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:70px;
+	color:#090;
+	text-align:center;
+	}
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:35px;
+	}
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-align:justify;
+	}
+table {
+	width:50%;
+	border:2px solid black;
+	}
+tr, td {
+	border:2px solid black;
+	font-size:20px;
+	}
+tr:nth-child(even) {
+	background-color:#008000;
+	color:#8CFACA;
+	}
+.links a:visited{
+	color:#12AD2A;
+	}
+.links a:hover{
+	color:#008000;
+	}
+.links a:active{
+	color:#8CFACA;
+	}
+
+
+footer {
+	height:115px;
+	position:relative;
+	margin:0px;
+	background-color:#008000;
+	}
+footer ul.left {
+	width:33.33%;
+	list-style-type:none;
+	left:0px;
+	padding-left:5%;
+	top:0px;
+	position:absolute;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-weight:bold;
+	font-size:18px;
+	color:#8CFACA;
+	}
+footer ul.right {
+	width:33.33%;
+	list-style-type: none;
+	right:0px;
+	top:0px;
+	padding-right:5%;
+	position:absolute;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	font-weight:bold;
+	font-size:18px;
+	color:#8CFACA;
+	}
